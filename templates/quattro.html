@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Cucina d'Italia</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    
+    </head>
+
+    <body>
+        <p class = "scritte">"Cucina d'Italia"</p>
+        <div class = "immagini">
+            <div>
+                <img src = "{{url_for('static', filename='images/pasta.jpg')}}" class = "immagini">
+                <a href="/pasta"><h3 class = "scritte2">PASTA</h3></a>
+            </div>
+            <div>
+                <img src = "{{url_for('static', filename='images/pizza.jpg')}}" class = "immagini">
+                <a href="/pizza"><h3 class = "scritte2">PIZZA</h3></a>
+            </div>
+            <div>
+                <img src = "{{url_for('static', filename='images/sushi.jpg')}}" class = "immagini">
+                <a href="/sushi"><h3 class = "scritte2">SUSHI</h3></a>
+            </div>
+            <div>
+                <img src = "{{url_for('static', filename='images/hamburger.jpg')}}" class = "immagini">
+                <a href="/hamburger"><h3 class = "scritte2">HAMBURGER</h3></a>
+            </div>
+        </div>
+    </body>
+</html>
