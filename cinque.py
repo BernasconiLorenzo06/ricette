@@ -3,9 +3,16 @@ app = Flask(__name__)
 
 import datetime
 
+if ora == 12:
+    ora = pranzo
+else:
+    ora == 19:
+    ora = cena
+
+
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('quattro.html')
+    return render_template('tre.html')
 
 @app.route('/pizza', methods=['GET'])
 def pizza():
