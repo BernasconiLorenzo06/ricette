@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Cucina d'Italia</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    
+    </head>
+
+    <body>
+        <p class = "scritte2">Scaldate in padella l'olio d'oliva, l'aglio e le erbe aromatiche (escluso il basilico), lasciate ammorbidire l'aglio e aggiungete i pomodori mescolandoli al condimento
+
+            Fate sobbollire il sugo a fuoco lento per 20 minuti o comunque finché il sugo non diventa denso, avendo cura di mescolare di tanto in tanto per evitare che si attacchi
+
+            Cuocete la pasta al dente in una pentola colma d'acqua bollente e salata per il tempo indicato sulla confezione, scolatela al dente e versatela nei piatti
+
+            Aggiungete il basilico al sugo e usate la salsa per condire la pasta insieme al parmigiano grattugiato, gustandola ben calda
+        </p>
+        <div class = "immagini">
+            <div>
+                <img src = "{{url_for('static', filename='images/preparazionepasta.jpg')}}" class = "immagini">
+                
+            </div>
+            <div>
+                <img src = "{{url_for('static', filename='images/preparazionepasta3.jpg')}}" class = "immagini">
+                
+            </div>
+        </div>
+    </body>
+</html>

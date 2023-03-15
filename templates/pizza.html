@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Cucina d'Italia</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    
+    </head>
+
+    <body>
+        <p class = "scritte2">Mettete l’acqua tiepida in una grande ciotola e sbriciolatevi dentro il lievito di birra fresco insieme allo zucchero e aggiungete l’olio extravergine di oliva.
+
+            Fate sciogliere totalmente il lievito poi iniziate ad unire la farina e il sale mescolando prima con un cucchiaio e poi con le mani in modo da ottenere un impasto omogeneo e senza grumi.
+            
+            Impastate per circa 10 minuti poi trasferite l’impasto in una ciotola ben oleata, coprite con pellicola trasparente e mettete  lievitare in forno SPENTO ma con la luce accesa per circa 1 ora e mezza fino a che l’impasto sarà raddoppiato di volume.
+            
+            Togliete l’impasto dalla ciotola e stendetelo su una teglia oleata o con carta forno SENZA REIMPASTARLO ma appiattendolo solo con le mani.
+            
+            Lasciatelo lievitare ancora per 30 minuti circa poi conditelo con pomodoro.
+            
+            Accendete il forno a 250° statico e, quando sarà ben caldo, mettete a cuocere la pizza nel ripiano più basso del forno.
+            
+            Fate cuocere per 10 minuti poi aggiungete la mozzarella a dadini, spostate la pizza sul ripiano medio del forno e continuate la cottura ancora per 5 minuti circa fino a che la mozzarella sarà totalmente cotta</p>
+        <div class = "immagini">
+            <div>
+                <img src = "{{url_for('static', filename='images/preparazionepizza.jpg')}}" class = "immagini">
+                
+            </div>
+            <div>
+                <img src = "{{url_for('static', filename='images/preparazionepizza2.jpg')}}" class = "immagini">
+                
+            </div>
+        </div>
+    </body>
+</html>
